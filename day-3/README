@@ -1,0 +1,48 @@
+# Day 3 — Python OOP & File I/O Exercises
+
+This exercise focuses on **object-oriented programming (OOP), file input/output, JSON persistence, CLI, and error handling**.  
+It implements a **command-line task tracker** where tasks are saved between runs.
+
+---
+
+## Exercise — `tasks.py` (Task Tracker)
+
+**Features:**
+
+- **Task structure:**  
+  - `id` → unique task identifier  
+  - `title` → task description  
+  - `status` → `"todo"` or `"done"`  
+  - `created_at` → timestamp when the task was created  
+
+- **TaskManager class** handles:
+  - `add_task(title)` → add a new task  
+  - `complete_task(id)` → mark a task as done  
+  - `delete_task(id)` → remove a task  
+  - `list_tasks(filter=None)` → list all tasks, or filter by status  
+
+- **Persistence:** tasks are saved to `tasks.json` automatically.  
+
+- **CLI usage:** run commands from the terminal, e.g., `python3 tasks.py add "Fix bug"`  
+
+- **Error handling:** handles missing arguments, invalid task IDs, and corrupt JSON files.  
+
+---
+
+### Example Commands
+
+```bash
+# Add a task
+python3 tasks.py add "Fix login bug"
+
+# Mark a task as done
+python3 tasks.py done 1
+
+# Delete a task
+python3 tasks.py delete 2
+
+# List all tasks
+python3 tasks.py list
+
+# List only done tasks
+python3 tasks.py list --filter done

@@ -17,10 +17,10 @@ for i in range(num_scores):
 
 print("\n--- User Based Scores ---")
 for s in user_based_scores:
-    print(f"Score: {s} -> {grade_classifier(s)}")
+    print(f"Score: {s} -> {grade_classifier(score=s)}")
 
 
 scores = [45, 72, 91, 60, 38, 85]
 print("\n--- Given Scores ---")
-for s in scores:
-    print(f"Score: {s} -> {grade_classifier(s)}")
+for score in scores:
+    print(f"Score: {score} -> {grade_classifier(score=score)}") # Keyword argument passed to function for clarity

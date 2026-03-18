@@ -1,10 +1,11 @@
 # Random data for 5 students
 students = [
     {"name": "Alice", "scores": [85, 92, 78], "subject": "Math"},
-    {"name": "Bob", "scores": [72, 68, 74], "subject": "Science"},
+    {"name": "Bob", "scores": [72, 68, 74], "subject": "Chemistry"},
     {"name": "Charlie", "scores": [95, 90, 93], "subject": "English"},
     {"name": "David", "scores": [60, 65, 58], "subject": "Math"},
-    {"name": "Eva", "scores": [88, 84, 91], "subject": "Science"}
+    {"name": "Eva", "scores": [88, 84, 91], "subject": "Physics"},
+    {"name": "Josh", "scores": [23, 15, 16], "subject": "Computer"}
 ]
 
 # Function: calculate average
