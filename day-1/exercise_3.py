@@ -1,7 +1,7 @@
 def print_table(n):
     print(f"\nMultiplication Table for {n}")
     print("-" * 27)
-    for i in range(1, 13):
+    for i in range(1, 11):
         # Right-align both numbers and result
         print(f"{n:2} x {i:2} = {n * i:3}")
 

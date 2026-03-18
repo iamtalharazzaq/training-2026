@@ -1,25 +1,27 @@
 # Training 2026: Python Exercises
 
-This folder contains the Python exercises for the 2026 training program.  
-Each day’s exercises are in a separate folder.  
-
-## Day 1
-- Folder: `Day 1`
-- Contains beginner Python exercises: variables, control flow, loops, functions, and formatted output.
-
-## Day 2 — Python Functions & Data Processing
-- Exercises on **functions, lists, dictionaries, loops, sorting, and formatted tables**.  
-- Includes:
-  1. **`exercise_1.py`** — Word frequency counter for a hardcoded paragraph  
-  2. **`exercise_2.py`** — Student report generator with averages, grades, topper highlighting, and sorted output  
-- **Output examples** are attached in each folder.  
-- [Go to Day 2 Exercises](./Day%202/README.md)
+This repository contains the Python exercises completed as part of the **2026 training program**.  
+Each day’s exercises are organized in separate folders, with `.py` files and example outputs.
 
 ---
 
-## How to Run
-Navigate to the respective day folder and run the exercises using:
+## Day 1 — Python Basics
+- **Covers:** variables, operators, control flow, loops, functions, input validation, and formatted output.
+- **Exercises include:**
+  1. User input and calculations (salary, coffee budget, years to retirement)  
+  2. Grade classification using functions  
+  3. Multiplication table generator with right-aligned formatting  
+- **Output examples** are attached in the folder.  
+- [Go to Day 1 Exercises](./day-1/README)
 
-```bash
-python3 filename.py
-# etc.s
+---
+
+## Day 2 — Functions & Data Processing
+- **Covers:** functions, lists, dictionaries, loops, sorting, and formatted tables.
+- **Exercises include:**
+  1. Word frequency counter for a hardcoded paragraph  
+  2. Student report generator with averages, grades, topper highlighting, and sorted output  
+- **Output examples** are attached in the folder.  
+- [Go to Day 2 Exercises](./day-2/README)
+
+---
