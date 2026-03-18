@@ -33,6 +33,22 @@ This folder contains two Python exercises covering **functions, lists, dictionar
 
 ---
 
+### Difference between List and Dictionary
+
+A **list** stores multiple items in a specific order and is accessed using an index (position).  
+It is useful when the sequence of data matters, such as storing marks, names, or prices.
+Properties for list data: Mutable, Ordered, Duplicate, and Heterogenous  
+
+A **dictionary** stores data as **key–value pairs** and is accessed using keys instead of positions.  
+It is useful for structured data where each value has a label, such as storing a student’s name, age, and marks.
+
+**In short:**  
+Use a **list** for ordered collections.  
+Use a **dictionary** for labeled or structured data.
+
+---
+
+
 ## Run
 
 ```bash
