@@ -8,12 +8,11 @@ class TaskManager:
     def __init__(self):
         self.tasks = self.load_tasks()
 
-    # ---------- Persistence ----------
     def load_tasks(self):
         try:
-            with open(self.FILE_NAME, "r") as f:
-                return json.load(f)
-        except FileNotFoundError:
+            with open(self.FILE_NAME, "r") as f: #file is opened in read mode, and then auto-closed after reading is done.
+                return json.load(f) # The json.load() function is used to parse the JSON data from the file and convert it into a Python object (in this case, a list of tasks). The resulting list of tasks is returned and assigned to self.tasks.
+        except FileNotFoundError: # If the file does not exist, it means there are no tasks yet, so we return an empty list.
             return []
         except json.JSONDecodeError:
             print("Error: tasks.json is corrupt. Starting fresh.")
