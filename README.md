@@ -41,6 +41,16 @@ Each day’s exercises are in a separate folder.
 
 ---
 
+## Day 4 — API Integration & JSON Parsing
+- Folder: `Day 4`
+- Exercises on **calling RESTful APIs, parsing JSON payloads, handling error codes (404, 403), and command-line arguments (sys.argv)**.
+- Includes:
+  1. `exercise_1.py` — GitHub Profile Fetcher: Fetches user details and top 5 repositories.
+  2. `exercise_2.py` — Weather CLI: Chains geocoding and current weather APIs from Open-Meteo.
+- [Go to Day 4 Exercises](./day-4/README.md)
+
+---
+
 ## How to Run
 
 Navigate to the respective day folder and run the exercises using:

@@ -29,6 +29,15 @@ It implements a **command-line task tracker** where tasks are saved between runs
 
 ---
 
+### Why use a class instead of just functions?
+
+We use a class in the task tracker to encapsulate all related data and methods in a single structure.  
+All task operations, creating, updating, deleting, and listing are defined as methods inside the class.  
+This approach keeps the **state of tasks** and their behavior together, making the code more modular and maintainable.  
+It also allows multiple instances of task managers, each with its own task list, and makes it easier to extend functionality without modifying global functions.
+
+---
+
 ### Example Commands
 
 ```bash
