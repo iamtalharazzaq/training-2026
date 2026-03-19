@@ -51,6 +51,15 @@ Each day’s exercises are in a separate folder.
 
 ---
 
+## Day 5 — Pandas and Data Analysis
+- Folder: `Day 5`
+- Exercises on **data manipulation, statistical analysis, handling missing values, and grouping data with Pandas**.
+- Includes:
+  1. `analysis.py` — Titanic Dataset Analysis: Loads the Titanic dataset and answers 10 specific statistical and data manipulation questions.
+- [Go to Day 5 Exercises](./day-5/README.md)
+
+---
+
 ## How to Run
 
 Navigate to the respective day folder and run the exercises using:
