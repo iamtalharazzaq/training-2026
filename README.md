@@ -60,6 +60,20 @@ Each day’s exercises are in a separate folder.
 
 ---
 
+## Day 6 — (Skipped Intentionally)
+- This day's exercises were skipped and will be added later.
+
+---
+
+## Day 7 — Reddit Data Analysis & JSON Reporting
+- Folder: `Day 7`
+- Exercises on **advanced API interaction, word frequency analysis, and automated reporting**.
+- Includes:
+  1. `task.py` — Reddit Top Posts Analyzer: Fetches top posts from any subreddit, analyzes word frequency, upvote stats, and generates a `report.json`.
+- [Go to Day 7 Exercises](./day-7/README.md)
+
+---
+
 ## How to Run
 
 Navigate to the respective day folder and run the exercises using:

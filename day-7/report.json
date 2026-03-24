@@ -1,0 +1,95 @@
+{
+  "subreddit": "technology",
+  "top_words": [
+    [
+      "us",
+      8
+    ],
+    [
+      "ai",
+      8
+    ],
+    [
+      "new",
+      7
+    ],
+    [
+      "are",
+      6
+    ],
+    [
+      "into",
+      6
+    ],
+    [
+      "that",
+      5
+    ],
+    [
+      "says",
+      5
+    ],
+    [
+      "foreign-made",
+      4
+    ],
+    [
+      "routers",
+      4
+    ],
+    [
+      "apple",
+      4
+    ],
+    [
+      "was",
+      4
+    ],
+    [
+      "tech",
+      4
+    ],
+    [
+      "just",
+      3
+    ],
+    [
+      "bans",
+      3
+    ],
+    [
+      "fcc",
+      3
+    ],
+    [
+      "from",
+      3
+    ],
+    [
+      "about",
+      3
+    ],
+    [
+      "he",
+      3
+    ],
+    [
+      "data",
+      3
+    ],
+    [
+      "out",
+      3
+    ]
+  ],
+  "most_upvoted_post": {
+    "title": "A High School Student Just Built a Water Filter That Removes 96% of Microplastics, Without Expensive Equipment",
+    "upvotes": 24032,
+    "url": "https://reddit.com/r/technology/comments/1s1po6a/a_high_school_student_just_built_a_water_filter/"
+  },
+  "average_upvotes": 1782.42,
+  "posts_count": {
+    "today": 23,
+    "older": 27
+  }
+}
